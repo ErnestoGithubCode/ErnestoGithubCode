@@ -22,10 +22,49 @@ Before we start working with EDA, we must perform the data inspection properly. 
 “ggplot2” package
 “soilDB” package
 
-We can install these packages from the R console using the install.packages() command and load them into our R Script by using the library() command. We will now see how to inspect our data and remove the typos and blatant errors. 
+We can install these packages from the R console using the install.packages() command and load them into our R Script by using the library() command. 
+We will now see how to inspect our data and remove the typos and blatant errors. 
 
 Data Inspection for EDA in R
-To ensure that we are dealing with the right information we need a clear view of your data at every stage of the transformation process. Data Inspection is the act of viewing data for verification and debugging purposes, before, during, or after a translation. Now let’s see how to inspect and remove the errors and typos from the data.
+To ensure that we are dealing with the right information we need a clear view of your data at every stage of the transformation process. 
+Data Inspection is the act of viewing data for verification and debugging purposes, before, during, or after a translation.
+Now let’s see how to inspect and remove the errors and typos from the data.
 
 Come from : https://www.geeksforgeeks.org/exploratory-data-analysis-in-r-programming
 HAVES SAMPLE R CODE!!!!!!!!!!!!!!!!!
+
+
+Descriptive Statistics in EDA 
+For Descriptive Statistics in order to perform EDA in R, we will divide all the functions into the following categories: 
+
+Measures of central tendency
+Measures of dispersion
+Correlation
+
+Data Inspection for EDA in R
+To ensure that we are dealing with the right information we need a clear view of your data at every stage of the transformation process. 
+Data Inspection is the act of viewing data for verification and debugging purposes, before, during, or after a translation.
+
+ Measures of Central tendency. Under this section, we will be calculating the mean, median, mode, and frequencies.
+ 
+ Measures of Dispersion. In this category, we are going to determine the spread values around the mid-point. 
+ Here we are going to calculate the variance, standard deviation, range, inter-quartile range, coefficient of variance, and quartiles.
+ 
+ Correlation. In this part, all the calculated correlation coefficient values of all variables in tabulated as the Correlation Matrix. 
+ This gives us a quantitative measure in order to guide our decision-making process.
+ 
+ 
+ 
+Graphical Method in EDA 
+Since we have already checked our data for missing values, blatant errors, and typos, we can now examine our data graphically in order to perform EDA.
+We will see the graphical representation under the following categories: 
+
+Distributions
+Scatter and Line plot
+
+Distributions, we shall examine our data using the bar plot, Histogram, Density curve, box plots, and QQplot. 
+
+Scatter and Line plot. In this category, we are going to see two types of plotting,- scatter plot and line plot. 
+Plotting points of one interval or ratio variable against variable are known as a scatter plot.
+Under the Distribution, we shall examine our data using the bar plot, Histogram, Density curve, box plots, and QQplot. 
+ 
