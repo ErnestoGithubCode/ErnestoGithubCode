@@ -104,6 +104,15 @@ Data wrangling.
 Sometimes referred to as data munging or data cleaning, is the process of transforming and mapping data from one "raw" data form into another format.
 With the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics.
 
+Data wrangling.Steps    #https://hevodata.com/learn/data-wrangling/
+Step 1: Data Discovery
+Step 2: Data Structuring
+Step 3: Data Cleaning
+Step 4: Data Enriching
+Step 5: Data Validating
+Step 6: Data Publishing
+
+
 data.table 
 https://www.machinelearningplus.com/data-manipulation/datatable-in-r-complete-guide/   by  Selva Prabhakaran
 
@@ -117,3 +126,4 @@ head(res)
 
 
  
+
