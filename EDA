@@ -1,0 +1,29 @@
+Exploratory Data Analysis in R Programming
+
+Last Updated : 01 Jul, 2022
+Exploratory Data Analysis or EDA is a statistical approach or technique for analyzing data sets in order to summarize their important and main characteristics generally by using some visual aids. The EDA approach can be used to gather knowledge about the following aspects of data:
+
+Main characteristics or features of the data.
+The variables and their relationships.
+Finding out the important variables that can be used in our problem.
+EDA is an iterative approach that includes:
+
+Generating questions about our data
+Searching for the answers by using visualization, transformation, and modeling of our data.
+Using the lessons that we learn in order to refine our set of questions or to generate a new set of questions.
+Exploratory Data Analysis in R
+In R Language, we are going to perform EDA under two broad classifications:
+
+Descriptive Statistics, which includes mean, median, mode, inter-quartile range, and so on.
+Graphical Methods, which includes histogram, density estimation, box plots, and so on.
+Before we start working with EDA, we must perform the data inspection properly. Here in our analysis, we will be using the loafercreek from the soilDB package in R. We are going to inspect our data in order to find all the typos and blatant errors. Further EDA can be used to determine and identify the outliers and perform the required statistical analysis. For performing the EDA, we will have to install and load the following packages:
+
+“aqp” package
+“ggplot2” package
+“soilDB” package
+We can install these packages from the R console using the install.packages() command and load them into our R Script by using the library() command. We will now see how to inspect our data and remove the typos and blatant errors. 
+
+Data Inspection for EDA in R
+To ensure that we are dealing with the right information we need a clear view of your data at every stage of the transformation process. Data Inspection is the act of viewing data for verification and debugging purposes, before, during, or after a translation. Now let’s see how to inspect and remove the errors and typos from the data.
+
+Come from : https://www.geeksforgeeks.org/exploratory-data-analysis-in-r-programming
