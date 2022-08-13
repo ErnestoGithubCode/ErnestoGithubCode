@@ -3,11 +3,14 @@ Exploratory Data Analysis(EDA) with R Programming
 Last Updated : 13 Aug, 2022
 Proudly written by Ing.Ernesto Ibanez.
 
-Exploratory Data Analysis or EDA is a statistical approach or technique for analyzing data sets in order to summarize their important and main characteristics generally by using some visual aids. The EDA approach can be used to gather knowledge about the following aspects of data:
+Exploratory Data Analysis or EDA is a statistical approach or technique for analyzing data sets.
+This in order to summarize their important and main characteristics generally by using some visual aids.
+The EDA approach can be used to gather knowledge about the following aspects of data:
 
 Main characteristics or features of the data.
 The variables and their relationships.
 Finding out the important variables that can be used in our problem.
+
 EDA is an iterative approach that includes:
 
 Generating questions about our data
@@ -30,6 +33,7 @@ For performing the EDA, we will have to install and load the following packages:
 
 We can install these packages from the R console using the install.packages() command and load them into our R Script by using the library() command. 
 We will now see how to inspect our data and remove the typos and blatant errors. 
+BY EXAMPLE write in RStudio console install.packages(“soilDB”)
 
 Data Inspection for EDA in R
 To ensure that we are dealing with the right information we need a clear view of your data at every stage of the transformation process. 
@@ -82,18 +86,18 @@ The outliers contained in sample data introduce bias into statistical estimates 
 Types of Missing Values
 
 According to previous studies, missing values are divided into two categories: missing completely at random (MCAR) 
+and no missing at random (NMAR), depending on the types of missingness that occurred.
+Dealing with outliers is essential prior to the analysis of the data set containing outlier.
 
-
-https://palomar.home.ece.ust.hk/MAFS6010R_lectures/slides_data_cleaning.html
+(#1) https://palomar.home.ece.ust.hk/MAFS6010R_lectures/slides_data_cleaning.html
 
 https://github.com/Rdatatable/data.table/wiki
 
 data.table 
 https://www.machinelearningplus.com/data-manipulation/datatable-in-r-complete-guide/   by  Selva Prabhakaran
 
-Mahalanobis distance
+Mahalanobis distance #1
 Euclidean distance
 
-and no missing at random (NMAR), depending on the types of missingness that occurred
-Dealing with outliers is essential prior to the analysis of the data set containing outlier.
+
  
