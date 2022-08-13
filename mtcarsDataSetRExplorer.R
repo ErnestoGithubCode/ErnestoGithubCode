@@ -1,0 +1,23 @@
+library(dplyr)
+library(explore)
+# run Source  source("~/DataScience in R/mtcarsDataSetRExplorer.R")
+# Explore mtcars dataset
+mtcars %>% explore_tbl()
+mtcars %>% describe()
+mtcars %>% explore_all()
+mtcars %>% explore(gear)
+mtcars %>% select(gear, mpg, hp, cyl, am) %>% explore_all(target = gear)
+dataCars <- mtcars %>% mutate(highmpg = if_else(mpg > 25, 1, 0, 0)) %>% select(-mpg)
+dataCars %>% explore(highmpg)
+dataCars %>% select(highmpg, cyl, disp, hp) %>% explore_all(target = highmpg)
+dataCars %>% select(highmpg, drat, wt, qsec, vs) %>% explore_all(target = highmpg)
+dataCars %>% select(highmpg, am, gear, carb) %>% explore_all(target = highmpg)
+dataCars %>% explain_tree(target = highmpg)
+dataCars %>% explore(wt, target = highmpg)
+dataCars %>% explore(wt, target = highmpg, split = FALSE)
+mtcars %>% explore(wt, mpg)
+mtcars %>% explain_tree(target = hp, minsplit=15)
+model <- mtcars %>% explain_tree(target = hp, minsplit=15, out = "model")
+mtcars %>% select(hp, cyl, mpg) %>% explore_all(target = hp)
+
+
