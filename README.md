@@ -3,7 +3,7 @@
 - 🌱 I’m currently self-learning Data Science.
 - 💞️ I’m looking to collaborate on Real Estate Data Analysis, BioInformatics.
 - 📫 How to reach me? Write to me at this email address: eibanez.ernesto@gmail.com
-- 👮‍♂️ This is my online compass to all the stuff I must do to reach my goals in Data Science.
+- 👮‍♂️ This repo is my online compass to all the stuff I must do to reach my goals in Data Science.
 - ✝️ 🛐 📖 With  God blessing my steps!!! Amen. 😇
 -  ✝  Pax Domini sit semper vobiscum.  🕇 
 <!---
