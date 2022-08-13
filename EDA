@@ -16,7 +16,11 @@ In R Language, we are going to perform EDA under two broad classifications:
 
 Descriptive Statistics, which includes mean, median, mode, inter-quartile range, and so on.
 Graphical Methods, which includes histogram, density estimation, box plots, and so on.
-Before we start working with EDA, we must perform the data inspection properly. Here in our analysis, we will be using the loafercreek from the soilDB package in R. We are going to inspect our data in order to find all the typos and blatant errors. Further EDA can be used to determine and identify the outliers and perform the required statistical analysis. For performing the EDA, we will have to install and load the following packages:
+Before we start working with EDA, we must perform the data inspection properly. 
+Here in our analysis, we will be using the loafercreek from the soilDB package in R. 
+We are going to inspect our data in order to find all the typos and blatant errors. 
+Further EDA can be used to determine and identify the outliers and perform the required statistical analysis.
+For performing the EDA, we will have to install and load the following packages:
 
 “aqp” package
 “ggplot2” package
@@ -66,5 +70,28 @@ Distributions, we shall examine our data using the bar plot, Histogram, Density 
 
 Scatter and Line plot. In this category, we are going to see two types of plotting,- scatter plot and line plot. 
 Plotting points of one interval or ratio variable against variable are known as a scatter plot.
-Under the Distribution, we shall examine our data using the bar plot, Histogram, Density curve, box plots, and QQplot. 
+Under the Distribution, we shall examine our data using the bar plot, Histogram, Density curve, box plots, and QQplot.
+
+
+Outliers result from various factors including participant response errors and data entry errors. 
+In a distribution of variables, outliers lie far from the majority of the other data points as the corresponding values are extreme or abnormal. 
+The outliers contained in sample data introduce bias into statistical estimates such as mean values, leading to under- or over-estimated resulting values.
+
+Types of Missing Values
+
+According to previous studies, missing values are divided into two categories: missing completely at random (MCAR) 
+
+
+https://palomar.home.ece.ust.hk/MAFS6010R_lectures/slides_data_cleaning.html
+
+https://github.com/Rdatatable/data.table/wiki
+
+data.table 
+https://www.machinelearningplus.com/data-manipulation/datatable-in-r-complete-guide/   by  Selva Prabhakaran
+
+Mahalanobis distance
+Euclidean distance
+
+and no missing at random (NMAR), depending on the types of missingness that occurred
+Dealing with outliers is essential prior to the analysis of the data set containing outlier.
  
