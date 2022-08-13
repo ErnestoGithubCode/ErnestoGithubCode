@@ -98,8 +98,8 @@ Dealing with outliers is essential prior to the analysis of the data set contain
 (#1) https://palomar.home.ece.ust.hk/MAFS6010R_lectures/slides_data_cleaning.html
 (#2) https://stackoverflow.com/questions/64401468/calculate-euclidean-distance-with-r
 (#3) https://www.statology.org/transform-data-in-r/
-https://github.com/Rdatatable/data.table/wiki
-
+(#4) https://github.com/Rdatatable/data.table/wiki
+(#5) Garrett Grolemund [RStudio webinar](https://github.com/garrettgman/webinars/tree/master/12-Getting-started-with-R-Markdown)
 Data wrangling.
 Sometimes referred to as data munging or data cleaning, is the process of transforming and mapping data from one "raw" data form into another format.
 With the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics.
