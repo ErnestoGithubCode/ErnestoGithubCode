@@ -98,6 +98,11 @@ https://www.machinelearningplus.com/data-manipulation/datatable-in-r-complete-gu
 
 Mahalanobis distance #1
 Euclidean distance   #2
+res <- data.frame(
+  pair = paste(rownames(df)[s], rownames(df)[(s+1)], sep="-"),
+  dist=out)
+head(res)
+
 
 
  
