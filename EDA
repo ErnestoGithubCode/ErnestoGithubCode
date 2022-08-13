@@ -16,11 +16,16 @@ EDA is an iterative approach that includes:
 Generating questions about our data
 Searching for the answers by using visualization, transformation, and modeling of our data.
 Using the lessons that we learn in order to refine our set of questions or to generate a new set of questions.
-Exploratory Data Analysis in R
+
+
+Exploratory Data Analysis in R.
+
 In R Language, we are going to perform EDA under two broad classifications:
 
 Descriptive Statistics, which includes mean, median, mode, inter-quartile range, and so on.
 Graphical Methods, which includes histogram, density estimation, box plots, and so on.
+
+
 Before we start working with EDA, we must perform the data inspection properly. 
 Here in our analysis, we will be using the loafercreek from the soilDB package in R. 
 We are going to inspect our data in order to find all the typos and blatant errors. 
@@ -33,7 +38,8 @@ For performing the EDA, we will have to install and load the following packages:
 
 We can install these packages from the R console using the install.packages() command and load them into our R Script by using the library() command. 
 We will now see how to inspect our data and remove the typos and blatant errors. 
-BY EXAMPLE write in RStudio console install.packages(“soilDB”)
+BY EXAMPLE write in RStudio console install.packages(“soilDB”) +  library(soilDB)
+
 
 Data Inspection for EDA in R
 To ensure that we are dealing with the right information we need a clear view of your data at every stage of the transformation process. 
