@@ -90,14 +90,14 @@ and no missing at random (NMAR), depending on the types of missingness that occu
 Dealing with outliers is essential prior to the analysis of the data set containing outlier.
 
 (#1) https://palomar.home.ece.ust.hk/MAFS6010R_lectures/slides_data_cleaning.html
-
+(#2) https://stackoverflow.com/questions/64401468/calculate-euclidean-distance-with-r
 https://github.com/Rdatatable/data.table/wiki
 
 data.table 
 https://www.machinelearningplus.com/data-manipulation/datatable-in-r-complete-guide/   by  Selva Prabhakaran
 
 Mahalanobis distance #1
-Euclidean distance
+Euclidean distance   #2
 
 
  
