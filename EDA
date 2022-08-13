@@ -1,6 +1,6 @@
 Exploratory Data Analysis in R Programming
 
-Last Updated : 01 Jul, 2022
+Last Updated : 13 Aug, 2022
 Exploratory Data Analysis or EDA is a statistical approach or technique for analyzing data sets in order to summarize their important and main characteristics generally by using some visual aids. The EDA approach can be used to gather knowledge about the following aspects of data:
 
 Main characteristics or features of the data.
@@ -21,9 +21,11 @@ Before we start working with EDA, we must perform the data inspection properly. 
 “aqp” package
 “ggplot2” package
 “soilDB” package
+
 We can install these packages from the R console using the install.packages() command and load them into our R Script by using the library() command. We will now see how to inspect our data and remove the typos and blatant errors. 
 
 Data Inspection for EDA in R
 To ensure that we are dealing with the right information we need a clear view of your data at every stage of the transformation process. Data Inspection is the act of viewing data for verification and debugging purposes, before, during, or after a translation. Now let’s see how to inspect and remove the errors and typos from the data.
 
 Come from : https://www.geeksforgeeks.org/exploratory-data-analysis-in-r-programming
+HAVES SAMPLE R CODE!!!!!!!!!!!!!!!!!
