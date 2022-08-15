@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @ErnestoGithubCode | ErnestoRPubs.
+- 👋 Hi, I’m @ErnestoGithubCode | ErnestoRPubs | Twitter @eeibanez.
 - 👀 I’m interested in: R language, RStudio, R Shiny, Statistics, Geospatial Analysis, Genomics.
 - 🌱 I’m currently self-learning: Data Science, Git, RStudio.
 - 💞️ I’m looking to collaborate on Real Estate Data Analysis, BioInformatics.
